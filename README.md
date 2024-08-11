@@ -1,5 +1,4 @@
 # LaravelTodo
-<<<<<<< HEAD
 
 ## About This Project
 
@@ -24,4 +23,3 @@ This Project has been developed on Larevel with Blade.
 Thanks,
 =======
 A Simple Larevel Project : LaravelTodo
->>>>>>> db6a26df73b8fb963e6ad4aad937ea4199c4d8f1
