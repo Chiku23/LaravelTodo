@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="HomeContainer flex flex-col justify-center items-center mx-auto">
+        @if ($user)
+        <div class="UserWelcome">Hello... {{$user->name;}}</div>
+        @endif
         <div class="HomePageTitle w-full text-center mb-4 font-bold text-2xl mt-4">My ToDo's</div>
         <div class="TodoContainer flex flex-col">
             <div class="TopFormSection bg-gray-200 mb-5 p-4 rounded">

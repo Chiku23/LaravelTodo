@@ -10,5 +10,9 @@ use App\Http\Controllers\RegisterController;
 // Define Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/loginUser', [LoginController::class, 'loginUser']);
+
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
-Route::post('/logout', [HomeController::class, 'index'])->name('logout');
+Route::post('/registerUser',[RegisterController::class, 'registerUser']);
+
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');

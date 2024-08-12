@@ -23,6 +23,9 @@
             <div class="actions flex justify-center my-4">
                 <button type="submit" class="bg-transparent border-black hover:bg-green-500 border-2 hover:border-white text-black hover:text-white px-4 py-1 font-bold rounded transition-all duration-150">Register</button>
             </div>
+            <div class="my-2">
+                Already Registered? Login <a href="{{route('login')}}"><span class="text-blue-500">Here</span></a>
+            </div>
         </form>
     </div>
 </div>
