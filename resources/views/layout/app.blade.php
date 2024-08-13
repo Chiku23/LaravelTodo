@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-migrate-3.5.2.min.js" integrity="sha256-ocUeptHNod0gW2X1Z+ol3ONVAGWzIJXUmIs+4nUeDLI=" crossorigin="anonymous"></script>
     <title>{{env('APP_NAME')}}</title>
 </head>
-<body>
+<body class="font-mono">
     {{-- Include the Header --}}
     @Include('includes.header')
 
